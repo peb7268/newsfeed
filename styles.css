@@ -1,0 +1,174 @@
+/*-- Rest ------------------------------------------------------------------------*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+:focus {
+  outline: 0;
+}
+body {
+  line-height: 1;
+  color: black;
+  background: white;
+}
+ol,
+ul {
+  list-style: none;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+caption,
+th,
+td {
+  text-align: left;
+  font-weight: normal;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+}
+blockquote,
+q {
+  quotes: "" "";
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+p {
+  margin: 0px;
+  line-height: 1.2;
+}
+h1,
+h2,
+h3,
+h4 {
+  margin: 4px 0 0 0;
+}
+/*-- Utility Styles ------------------------------------------------------------------*/
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+/*-- Structure Styles ---------------------------------------------------------------*/
+#wrapper {
+  width: 960px;
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+}
+#sidebar,
+#main {
+  padding: 5px 10px;
+}
+#main {
+  background: #EEE;
+  width: 594px;
+  height: 1500px;
+  float: left;
+  border-left: 1px solid #555;
+  border-right: 1px solid #555;
+}
+#sidebar {
+  float: left;
+  width: 275px;
+  position: relative;
+  height: 1500px;
+  background: #999;
+}
+#newsfeed {
+  position: relative;
+  height: 275px;
+  overflow: hidden;
+  padding: 10px 15px;
+  background: #efefef;
+  border: 1px solid #444;
+  box-shadow: 0px 0px 3px #565656;
+  border-radius: 7px;
+}
+#newsfeed p {
+  position: relative;
+  margin: 0 0 2px;
+  padding: 0;
+  height: 25px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  line-height: 1.4;
+}
+#newsfeed a {
+  font-family: veranda, helvetica, Aria, sans-serif;
+  font-size: 10pt;
+  color: #555;
+}
